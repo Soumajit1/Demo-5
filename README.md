@@ -6,11 +6,12 @@ class Solution {
     int k = m + n - 1;  // nums1's index (the next filled position)
 class Solution {'s index (the actual nums)
     int j = n - 1;      // nums2's index
+    int k = m + n - 1;  // nums1's index 's index (the actual nums)
+    int j = n - 1;      // nums2's index
     int k = m + n - 1;  // nums1's index (the next filled position)
 
     while (j >= 0)
       if (i >= 0 && nums1[i] > nums2[j])
-};
   }
 };
 hello
