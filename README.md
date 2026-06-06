@@ -1,4 +1,14 @@
 class Solution {
- public:
-  void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-    int i = m - 1;      // 
+public:
+    int lengthOfLastWord(string s) {
+        int i = s.size() - 1;
+        while (~i && s[i] == ' ') {
+            --i;
+        }
+        int j = i;
+        while (~j && s[j] != ' ') {
+            --j;
+        }
+        return i - j;
+    }
+};
