@@ -10,7 +10,4 @@ class Solution {'s index (the actual nums)
     int k = m + n - 1;  // nums1's index (the next filled position)
 
     while (j >= 0)
-      if (i >= 0 && nums1[i] > nums2[j])
-};
-hello
-okeyy
+      if
