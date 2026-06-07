@@ -4,6 +4,4 @@ public:
         int i = s.size() - 1;
         while (~i && s[i] == ' ') {
             --i;
-        }
-        int j = i;
         while (~j && s[j] != ' ') {
